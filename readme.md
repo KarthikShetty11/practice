@@ -1,6 +1,6 @@
-# my portfolio
+# my website
 
-Hey, welcome to my portfolio:)
+Hey, welcome to my site:)
 
 Im learning:
 
