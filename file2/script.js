@@ -6,12 +6,20 @@
 
 //  console.log('a:'+a , "b:"+b);
  
+function calculateLength(){
+    //Write your code here
+  var a = document.getElementById("num").value;
+  
+ document.querySelector("#sid").innerHTML= a.length;
+    
+    
+}
 
 document.querySelector("#double").addEventListener("click", handleClick);
 function handleClick(){
 
    let newvalue = document.querySelector("#num").value; 
-   newvalue *= 2;
+   newvalue = newvalue*2;
    document.querySelector("#doubled").innerHTML= newvalue;
 }
 

@@ -10,9 +10,12 @@
 <body>
     
 <div id="click">
-       <input type="number" id="num">
+       <input type="number" oninput="calculateLength()" id="num">
        <button id="double">click here</button>
-       <div id="doubled"></div> 
+       <p>The length of the above input is: <p id="sid"></p></p>
+       
+       <p>Its doubled value is: <p id="doubled"></p> </p>
+       
        
        <button onClick=clicked()>click here</button>
        <div id="result"></div>
