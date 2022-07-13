@@ -2,7 +2,7 @@
 let result = 0;
 function click1(){
     result = result + 1;
-    document.getElementById("result").textContent = result;
+    document.getElementById("result").innerText = result;
 }
 
 
