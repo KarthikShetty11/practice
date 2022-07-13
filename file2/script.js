@@ -10,7 +10,7 @@ function calculateLength(){
     //Write your code here
   var a = document.getElementById("num").value;
   
- document.querySelector("#sid").innerHTML= a.length;
+ document.querySelector("#sid").innerText= a.length;
     
     
 }
@@ -19,15 +19,15 @@ document.querySelector("#double").addEventListener("click", handleClick);
 function handleClick(){
 
    let newvalue = document.querySelector("#num").value; 
-   newvalue = newvalue*2;
-   document.querySelector("#doubled").innerHTML= newvalue;
+   newvalue = "Hi " + newvalue;
+   document.querySelector("#doubled").innerText= newvalue;
 }
 
 let result = 0 ;
 function clicked(){
     result = result + 1;
     console.log(result);
-    document.getElementById("result").textContent = result ;
+    document.getElementById("result").innerText = result ;
 }
 
 let reverse = (str) => {
